@@ -1,0 +1,49 @@
+# ================================
+# Virtual Environment
+# ================================
+venv/
+.env
+
+# ================================
+# Python cache & compiled files
+# ================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ================================
+# OS-generated files
+# ================================
+.DS_Store
+Thumbs.db
+
+# ================================
+# IDE / Editor files
+# ================================
+.vscode/
+.idea/
+
+# ================================
+# Test / Temporary scripts
+# ================================
+test_*.py
+
+# ================================
+# Logs (if any in future)
+# ================================
+*.log
+
+# ================================
+# Jupyter / misc (safe to ignore)
+# ================================
+.ipynb_checkpoints/
+
+# ================================
+# Data handling
+# ================================
+# Ignore all PDFs (users add their own)
+data/pdfs/*.pdf
+
+# Keep folder structure
+!data/pdfs/.gitkeep
