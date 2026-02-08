@@ -117,21 +117,21 @@ pip install -r requirements.txt
 
 4. Set Environment Variables
 
-# Create a .env file in the project root:
+## Create a .env file in the project root:
 
 GROQ_API_KEY=your_groq_api_key_here
 
 
-# Note: The .env file must not be committed to version control.
+## Note: The .env file must not be committed to version control.
 
-# How to Run
+## How to Run
 
-# Place your PDF files inside:
+1. Place your PDF files inside:
 
 data/pdfs/
 
 
-# Start the application:
+2 .Start the application:
 
 python main.py
 
@@ -141,7 +141,7 @@ Type exit to quit the application.
 
 
 ## Example Queries
-# Document Content Queries
+ Document Content Queries
 
 What is the task described in the documents?
 
@@ -149,7 +149,7 @@ Explain the lab experiment described
 
 Summarize the main points of the document
 
-# Document Metadata Queries
+## Document Metadata Queries
 
 How many documents are present?
 
