@@ -82,7 +82,7 @@ document_qa_agent/
 ├── README.md
 └── .gitignore
 
-
+```
 ## Technology Stack
 
 Python 3.11+
